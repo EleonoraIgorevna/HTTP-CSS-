@@ -1,0 +1,140 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.paragraf {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68 ;
+}
+
+.mainesttitle {
+    font-size: 64px;
+    color: #1F3F68 ;
+}
+
+.contacttitle {
+   font-weight: 500;
+   font-size: 44px;
+   text-align: center;
+}
+.h3title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.h4title {
+    font-size: 20px;
+    color: #1F3F68 ;
+    line-height: 30px;
+}
+
+.textarea{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.buttonsubmit{
+    background: #5A98D0;
+    box-shadow: 1px 20px 50px rgba(16,112, 117, 0.2);
+    border-radius:  10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+
+/* ДОПОЛНИТЕЛЬНО СВОЕ НЕ ЧИТАТЬ  */
+/* лучше вот такой вариант, также через класс */
+
+/* классы - это самый лучший селектор, в атрибутах можно помещаться несколько классов */
+
+/* Базовые свойства стилей
+1. Единицы измерения:
+
+Относительные
+px- пиксель
+% -процент
+em - высота текущего шрифта
+...
+
+Абсолютные
+cm - сантиметры
+mm - миллиметр
+in - дюйм
+pt - пункт 
+...
+
+2. Единица измерения цвета 
+#RGBA и #RGB
+
+
+3. Параметры высоты и ширины
+h1{
+    width: 300px;
+    height: 200px;
+   }
+
+
+4. Фон элемента
+background-color: #ff0; - цвет фона 
+background-image: url(img/photo.jpg); - чтобы в качестве фона можно было установить изображение
+background-position: top; (bottom | left | right) - указывает, где будет располагаться фоновое изображение. Может иметь
+значения: top, bottom, left, right
+background-repeat: repeat-x; (repeat-y | no-repeat) - определяет, нужно ли повторять фоновое изображение: repeat-x —
+изображение повторяется по горизонтали, repeat-y — по вертикали, no-repeat — изображение
+не повторяется. По умолчанию у этого свойства установлено значение repeat. Это означает,
+что изображение будет повторяться по горизонтали и по вертикали.
+background-attachment: fixed; - будет ли изображение прокручиваться вместе с
+содержимым элемента. По умолчанию оно установлено как scroll. Это означает, что
+изображение будет прокручиваться, а при значении fixed изображение останется
+неподвижным.
+background-size: cover; (contain) - размер изображения. Возможно, вы не хотите, чтобы изображение
+занимало стандартные параметры. Поэтому можно выставить процентное значение или
+универсальное cover, которое будет занимать всё доступное пространство, contain —
+доступное пространство по высоте или ширине, чтобы фоновое изображение поместилось
+полностью.
+Существует короткая форма записи, в которой можно записать все перечисленные значения в одну
+строку, разделяя значения пробелом. - background: #ff0 url(img/photo.jpg) top repeat-x;
+
+
+
+Добавление рамки
+border-color: red; (#f00 | RGB(255, 0, 0))
+border-style: solid; (dotted | dashed | groove | ridge | solid | double | inset
+| outset) - стиль рамки, которая может быть разных значений: dotted, dashed, solid, double,
+groove, ridge, inset, outset.
+border-width: 2px;
+border-width задаёт толщину рамки, причём её можно задать для каждой из 4 сторон отдельно:
+● (1px 2px) — 1px: верхняя и нижняя, 2px: левая и правая;
+● (1px 2px 3px) — 1px: верхняя, 2px: левая и правая, 3 нижняя;
+● (1px 2px 3px 4px) — 1px: верхняя, 2px: правая, 3px: нижняя, 4px: левая.
+Можно перечислять свойства в одну строку, разделяя их пробелом - border: 1px solid black; */
+
+
+/* 
+Текст
+Цвет текста
+color: red;
+color: #78fa2e;
+Шрифт
+font-family: "Times New Roman", serif, Verdana;
+1. serif — шрифты с засечками.
+2. sans-serif — рубленые шрифты, без засечек.
+3. cursive — курсивные шрифты.
+4. fantasy — декоративные шрифты.
+5. monospace — моноширинные шрифты.
+
+font-style: italic; (oblique | normal)
+font-variant: small-caps; - имеет только два значения 
+font-weight: bold; (bolder | lighter| 100 | 200); - насыщенность цвета. Можно указывать значения предопределёнными
+словами, например, bold — полужирный, bolder — жирный, lighter — светлый. Насыщенность
+определяется цифрами от 100 до 900
+font-size: 20px; (small | medium | large); - определяет размер шрифта  */

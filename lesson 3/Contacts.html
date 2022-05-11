@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,32 +16,30 @@
                 <li href="Main.html">Main</li>
                 <li href="Contacts.html">Contacts</li>
             </ol>
-            <h2>Contact us</h2>
-            <p>Ivanov Ivan</p>
+            <h2 class="contacttitle" >Contact us</h2>
+            <p class="paragraf">Ivanov Ivan</p>
             <!-- img+enter , тут у нас есть два атрибута src - источник  и alt -альтернативный текст -->
 
             <img src="pngwing.com.png" alt="Луна" width="150">
 
-            <h4>Address</h4>
-            <p>City Moscow, street - Botanicheskaya</p>
-            <h4>Phone</h4>
+            <h4 class = "h4title" >Address</h4>
+            <p class="paragraf">City Moscow, street - Botanicheskaya</p>
+            <h4 class = "h4title" >Phone</h4>
             <ol>
                 <li>+7980-700-77-77</li>
                 <li>+7950-500-75-75</li>
             </ol>
-            <h4>Online service</h4>
+            <h4 class = "h4title" >Online service</h4>
             <ol>
                 <li>ivanov.i.@mail.ru</li>
                 <li>ivanov.o.@mail.ru</li>
             </ol>
-            <p>city Moscow, street - Botanicheskaya 47,ivanov.o.@mail.ru</p>
-            <h4>Send us message</h4>
-            Full Name <input type="text" size="60" placeholder="FullName"><br>
-            Email <input type="email" placeholder="mail@mail"><br>
-            Message <textarea cols="30" rows="5"></textarea><br>
-            OK <button type="submit">Send</button><br>
-
-
+            <p class="paragraf">city Moscow, street - Botanicheskaya 47,ivanov.o.@mail.ru</p>
+            <h4 class = "h4title" >Send us message</h4>
+            Full Name <input type="text" size="60" placeholder="FullName" class="textarea"><br>
+            Email <input type="email" placeholder="mail@mail" class="textarea"><br>
+            Message <textarea cols="30" rows="5" class="textarea"></textarea><br>
+            OK <button type="submit" class="buttonsubmit">Send</button><br>
             <!-- Интерактивная Яндекс Карта -->
             <br>
 
@@ -53,8 +52,8 @@
                 width="320" height="240" frameborder="0"></iframe> -->
 
 
-            <h3>Personal Hygiene is very important</h3>
-            <p>You should do&nbsp;these things for each day: Cleaning your body every day. Washing your hands with soap
+            <h3 class="h3title">Personal Hygiene is very important</h3>
+            <p class="paragraf">You should do&nbsp;these things for each day: Cleaning your body every day. Washing your hands with soap
                 after<br />
                 going to&nbsp;the toilet. Brushing your teeth twice a&nbsp;day.<br />
                 Covering your mouth and nose with a&nbsp;tissue (or&nbsp;your sleeve) when sneezing
@@ -68,6 +67,7 @@
             </ul>
             <p>Все права защищены</p>
 
+
             <!-- Дополнительно для себя -->
             <!-- Абсолютная ссылка -->
             <a href="http://astoblstom.ru/publ/oksc/pacientam/gigiena_polosti_rta/6-1-0-20" target='_blank'>Правила
@@ -79,26 +79,27 @@
 
             <!-- Основным элементом форм является Поле ввода и так они взаимодействуют с пользователем, затем данные передаются на сервис -->
             <form action="#">
-                <h3>Регистрация</h3>
-                Ваше имя <input type="text" size="60" placeholder="FullName"><br>
-                Пароль <input type="password" placeholder="Пароль" size="8"><br>
-                Почта <input type="email" placeholder="mail@mail"><br>
+                <h3 class="h3title">Регистрация</h3>
+                Ваше имя <input type="text" size="60" placeholder="FullName" class="textarea"><br>
+                Пароль <input type="password" placeholder="Пароль" size="8" class="textarea"><br>
+                Почта <input type="email" placeholder="mail@mail" class="textarea"><br>
                 Ваши увлечения<br>
                 <!-- checked="checked" - выделяет ячейку -->
-                Спорт <input type="checkbox" checked="checked"><br>
+                Спорт <input type="checkbox" checked="checked" class="textarea"><br>
                 <!-- label -ярлык для текста
             lorem 2000 -->
-                <label> IT <input type="checkbox"></label>
+                <label> IT <input type="checkbox" class="textarea"></label>
                 Ваш пол<br>
                 <!-- name = "pol" - позволяет синахранизировать значения -->
-                Ж <input type="radio" name="radio" name="pol" checked><br>
-                М <input type="radio" name="radio" name="pol"><br>
+                Ж <input type="radio" name="radio" name="pol" checked class="textarea"><br>
+                М <input type="radio" name="radio" name="pol" class="textarea"><br>
 
-                ПО: <textarea cols="30" rows="5"></textarea><br>
-                <button type="submit">Отправить</button><br>
+                ПО: <textarea cols="30" rows="5" class="textarea"></textarea><br>
+                <button type="submit" class="buttonsubmit">Отправить</button><br>
                 <button type="reset">Удалить</button><br>
             </form>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis dolore quibusdam repudiandae
+
+            <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis dolore quibusdam repudiandae
                 commodi. Neque eum fugiat voluptatibus quidem ab porro iure. Aut repudiandae ipsa tempore asperiores
                 molestias consectetur assumenda facilis repellendus delectus beatae maxime, suscipit porro. Animi dicta
                 quas incidunt consequatur minima eius voluptate eaque aspernatur inventore! Quo ducimus necessitatibus
@@ -173,15 +174,13 @@
                 voluptatibus iure illum illo perspiciatis reprehenderit cupiditate quam, assumenda nobis earum eveniet?
                 Dicta tempore, blanditiis obcaecati numquam officiis porro, vitae deleniti vel ab deserunt modi aliquid
                 eveniet eius esse fuga!</p>
-
             <!-- Абсолютная ссылка -->
-
             <a href="http://astoblstom.ru/publ/oksc/pacientam/gigiena_polosti_rta/6-1-0-20">Правила Гигиены</a>
-
             <!-- Относительная ссылка  -->
             <a href="Contacts.html">Контакты</a>
             <a href="Main.html">Главная</a>
             <a href="#top">Вверх</a>
+
         </li>
     </ul>
 </body>
