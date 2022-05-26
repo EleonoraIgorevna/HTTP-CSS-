@@ -1,35 +1,43 @@
-
+/* Для всего сайта задать разновидность шрифта */
 body{
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
+/* Для всех параграфов присвоить класс и задать стили */
 .paragraf {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68 ;
 }
 
+/* Для заголовка h1 создать класс и присвоить стили */
 .mainesttitle {
     font-size: 64px;
     color: #1F3F68 ;
 }
 
+/* Для заголовка h2 (на странице контакты) создать класс и присвоить стили */
 .contacttitle {
    font-weight: 500;
    font-size: 44px;
    text-align: center;
 }
+
+/* Заголовку h3 создать класс и задать стили */
 .h3title{
     text-align: center;
     font-size: 30px;
 }
 
+
+/* Заголовкам h4 создать класс и задать стили */
 .h4title {
     font-size: 20px;
     color: #1F3F68 ;
     line-height: 30px;
 }
 
+/* Для всех полей ввода (input, textarea) задать общий класс и к нему стили */
 .textarea{
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -37,13 +45,14 @@ body{
     opacity: 0.4;
 }
 
+/* Кнопке отправки формы присвоить класс и к нему стиль */
 .buttonsubmit{
-    background: #5A98D0;
-    box-shadow: 1px 20px 50px rgba(16,112, 117, 0.2);
+    background: #5ad081;
+    box-shadow: 1px 20px 50px rgba(112, 34, 54, 0.2);
     border-radius:  10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
